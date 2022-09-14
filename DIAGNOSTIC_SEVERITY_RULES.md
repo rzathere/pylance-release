@@ -2,7 +2,7 @@ Diagnostic Severity Rules
 =====================
 This doc details all available rules that can be customized using the `python.analysis.diagnosticSeverityOverrides` setting. If you are looking for details on other available settings, please refer back to the main [README](README.md).
 
-| Value  | Description                                                                                                               |
+| Value  | Description                                                                                                                 |
 |--------|---------------------------------------------------------------------------------------------------------------------------|
 | reportGeneralTypeIssues | Diagnostics for general type inconsistencies, unsupported operations, argument/parameter mismatches, etc. This covers all of the basic type-checking rules not covered by other rules. It does not include syntax errors. |
 | reportPropertyTypeMismatch | Diagnostics for properties where the type of the value passed to the setter is not assignable to the value returned by the getter. Such mismatches violate the intended use of properties, which are meant to act like variables. |
